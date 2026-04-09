@@ -1,5 +1,6 @@
 # CPP131 Class Repository
-# About Me
+
+## About Me
 
 ## Introduction
 
