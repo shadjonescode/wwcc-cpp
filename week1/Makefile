@@ -4,14 +4,15 @@ CXX = g++
 CXXFLAGS = -Wall -std=c++17
 
 # Target executable
-TARGET = hello_student
+TARGET = makefile_demo
 
 # Source files
-SRCS = hello_student.cpp
+SRCS = makefile_demo.cpp
 
 # Build rule
 $(TARGET): $(SRCS)
 	$(CXX) $(CXXFLAGS) -o $(TARGET) $(SRCS)
+
 # Clean rule to remove compiled files
 clean:
 	rm -f $(TARGET)

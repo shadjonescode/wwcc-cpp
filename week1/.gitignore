@@ -1,0 +1,6 @@
+# Ignore executables (no extension)
+*
+!*.cpp
+!*.h
+!*.gitignore
+!README.md
