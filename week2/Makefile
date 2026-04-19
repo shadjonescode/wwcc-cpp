@@ -4,10 +4,10 @@ CXX = g++
 CXXFLAGS = -Wall -std=c++17
 
 # Target executable
-TARGET = format_specifiers
+TARGET = coin_flip
 
 # Source files
-SRCS = format_specifiers.cpp
+SRCS = coin_flip.cpp
 
 # Build rule
 $(TARGET): $(SRCS)
