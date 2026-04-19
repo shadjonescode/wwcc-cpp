@@ -1,7 +1,15 @@
-calculator
-hello_git
-hello_student
-temp_converter
+# compiled files
+*.o
 *.out
 *.exe
-*.o
+
+# common default executable
+a.out
+
+# ignore any file with no extension (most compiled C++ outputs)
+*
+!*.cpp
+!*.h
+!Makefile
+!README.md
+!*.txt
