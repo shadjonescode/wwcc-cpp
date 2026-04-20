@@ -4,10 +4,10 @@ CXX = g++
 CXXFLAGS = -Wall -std=c++17
 
 # Target executable
-TARGET = coin_flip
+TARGET = number_guessing
 
 # Source files
-SRCS = coin_flip.cpp
+SRCS = number_guessing.cpp
 
 # Build rule
 $(TARGET): $(SRCS)
