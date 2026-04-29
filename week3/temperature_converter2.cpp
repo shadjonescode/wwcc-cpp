@@ -29,27 +29,27 @@ void convertTemperature(double temp, char unit, string &warning){
         case 'C':{
             double kelvin = temp + 273.15;
             double fahrenheit = (temp * 9.0/5.0) + 32;
-            cout << "Temperature in Celsius: " << temp << endl;
-            cout << "Temperature in Kelvin: " << fixed << setprecision(2) << kelvin << endl;
-            cout << "Temperature in Fahrenheit: " << fixed << setprecision(2) << fahrenheit << endl;
+            cout << "Temperature in Celsius: " << temp << "°C" << endl;
+            cout << "Temperature in Kelvin: " << fixed << setprecision(2) << kelvin << "K" << endl;
+            cout << "Temperature in Fahrenheit: " << fixed << setprecision(2) << fahrenheit << "°F" << endl;
             break;
         }
 
         case 'F':{
             double celsius = (temp - 32) * 5.0/9.0;
             double kelvin = celsius + 273.15;
-            cout << "Temperature in Fahrenheit: " << temp << endl;
-            cout << "Temperature in Kelvin: " << fixed << setprecision(2) << kelvin << endl;
-            cout << "Temperature in Celsius: " << fixed << setprecision(2) << celsius << endl;
+            cout << "Temperature in Fahrenheit: " << temp << "°F" << endl;
+            cout << "Temperature in Kelvin: " << fixed << setprecision(2) << kelvin << "K" << endl;
+            cout << "Temperature in Celsius: " << fixed << setprecision(2) << celsius << "°C" << endl;
             break;
         }
 
         case 'K':{
             double celsius = temp - 273.15;
             double fahrenheit = (celsius * 9.0/5.0) + 32;
-            cout << "Temperature in Kelvin: " << fixed << setprecision(2) << temp << endl;
-            cout << "Temperature in Celsius: " << fixed << setprecision(2) << celsius << endl;
-            cout << "Temperature in Fahrenheit: " << fixed << setprecision(2) <<fahrenheit << endl;
+            cout << "Temperature in Kelvin: " << fixed << setprecision(2) << temp << "K" << endl;
+            cout << "Temperature in Celsius: " << fixed << setprecision(2) << celsius << "°C" << endl;
+            cout << "Temperature in Fahrenheit: " << fixed << setprecision(2) <<fahrenheit << "°F" << endl;
             break;
         }
         default:
