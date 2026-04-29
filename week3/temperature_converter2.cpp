@@ -28,7 +28,7 @@ void convertTemperature(double temp, char unit, string &warning){
     switch(unit){
         case 'C':{
             double kelvin = temp + 273.15;
-            double fahrenheit = (temp * 9/5) + 32;
+            double fahrenheit = (temp * 9.0/5.0) + 32;
             cout << "Temperature in Celsius: " << temp << endl;
             cout << "Temperature in Kelvin: " << fixed << setprecision(2) << kelvin << endl;
             cout << "Temperature in Fahrenheit: " << fixed << setprecision(2) << fahrenheit << endl;
@@ -36,7 +36,7 @@ void convertTemperature(double temp, char unit, string &warning){
         }
 
         case 'F':{
-            double celsius = (temp - 32) * 5/9;
+            double celsius = (temp - 32) * 5.0/9.0;
             double kelvin = celsius + 273.15;
             cout << "Temperature in Fahrenheit: " << temp << endl;
             cout << "Temperature in Kelvin: " << fixed << setprecision(2) << kelvin << endl;
@@ -46,7 +46,7 @@ void convertTemperature(double temp, char unit, string &warning){
 
         case 'K':{
             double celsius = temp - 273.15;
-            double fahrenheit = (celsius * 9/5) + 32;
+            double fahrenheit = (celsius * 9.0/5.0) + 32;
             cout << "Temperature in Kelvin: " << fixed << setprecision(2) << temp << endl;
             cout << "Temperature in Celsius: " << fixed << setprecision(2) << celsius << endl;
             cout << "Temperature in Fahrenheit: " << fixed << setprecision(2) <<fahrenheit << endl;
