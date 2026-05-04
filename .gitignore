@@ -1,15 +1,15 @@
-# compiled files
-*.o
-*.out
-*.exe
-
-# common default executable
+# Ignore common compiled output
 a.out
 
-# ignore any file with no extension (most compiled C++ outputs)
+# Ignore all files with no extension
 *
+
+# Do not ignore directories
+!*/
+
+# Keep source files
 !*.cpp
 !*.h
+!*.md
+!.gitignore
 !Makefile
-!README.md
-!*.txt
