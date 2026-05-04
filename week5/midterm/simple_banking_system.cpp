@@ -114,13 +114,11 @@ int main() {
 
           int historyIndex = accounts[currentAccountIndex].transactionCount;
 
-          accounts[currentAccountIndex].transactionHistory[historyIndex] =
-              depositAmount;
+          accounts[currentAccountIndex].transactionHistory[historyIndex] = depositAmount;
           accounts[currentAccountIndex].transactionCount++;
 
           cout << "Deposit successful!" << endl;
-          cout << "New balance: $" << accounts[currentAccountIndex].balance
-               << endl;
+          cout << "New balance: $" << accounts[currentAccountIndex].balance << endl;
         } else {
           cout << "Invalid deposit amount." << endl;
         }
@@ -139,13 +137,11 @@ int main() {
         if (withdrawAmount > 0) {
           if (withdrawAmount <= accounts[currentAccountIndex].balance) {
             accounts[currentAccountIndex].balance -= withdrawAmount;
-            accounts[currentAccountIndex].transactionHistory[historyIndex] =
-                -withdrawAmount;
+            accounts[currentAccountIndex].transactionHistory[historyIndex] = -withdrawAmount;
             accounts[currentAccountIndex].transactionCount++;
 
             cout << "Withdraw successful!" << endl;
-            cout << "New balance: $" << accounts[currentAccountIndex].balance
-                 << endl;
+            cout << "New balance: $" << accounts[currentAccountIndex].balance << endl;
           } else {
             cout << "Insufficient funds." << endl;
           }
@@ -171,11 +167,8 @@ int main() {
         cout << "Account number you want to transfer to: ";
         cin >> transferAccountNumber;
 
-        if (transferAccountNumber ==
-            accounts[currentAccountIndex].accountNumber) {
-          cout << "You cannot transfer to the same account you are logged in "
-                  "with."
-               << endl;
+        if (transferAccountNumber == accounts[currentAccountIndex].accountNumber) {
+          cout << "You cannot transfer to the same account you are logged in with." << endl;
         } else {
           for (int i = 0; i < accountCount; i++) {
             if (accounts[i].accountNumber == transferAccountNumber) {
@@ -186,13 +179,10 @@ int main() {
           }
 
           if (foundTransferAccount) {
-            cout << "How much would you like to transfer? Your current "
-                    "account balance is $"
-                 << accounts[currentAccountIndex].balance << "." << endl;
+            cout << "How much would you like to transfer? Your current account balance is $" << accounts[currentAccountIndex].balance << "." << endl;
             cin >> transferAmount;
 
-            if (transferAmount > accounts[currentAccountIndex].balance ||
-                transferAmount <= 0) {
+            if (transferAmount > accounts[currentAccountIndex].balance || transferAmount <= 0) {
               cout << "Couldn't complete the transfer." << endl;
             } else {
               accounts[currentAccountIndex].balance -= transferAmount;
