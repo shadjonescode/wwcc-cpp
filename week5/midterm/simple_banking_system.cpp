@@ -188,26 +188,19 @@ int main() {
               accounts[currentAccountIndex].balance -= transferAmount;
               accounts[transferAccountIndex].balance += transferAmount;
 
-              int senderHistoryIndex =
-                  accounts[currentAccountIndex].transactionCount;
-              accounts[currentAccountIndex]
-                  .transactionHistory[senderHistoryIndex] = -transferAmount;
+              int senderHistoryIndex = accounts[currentAccountIndex].transactionCount;
+              accounts[currentAccountIndex].transactionHistory[senderHistoryIndex] = -transferAmount;
               accounts[currentAccountIndex].transactionCount++;
 
-              int receiverHistoryIndex =
-                  accounts[transferAccountIndex].transactionCount;
-              accounts[transferAccountIndex]
-                  .transactionHistory[receiverHistoryIndex] = transferAmount;
+              int receiverHistoryIndex = accounts[transferAccountIndex].transactionCount;
+              accounts[transferAccountIndex].transactionHistory[receiverHistoryIndex] = transferAmount;
               accounts[transferAccountIndex].transactionCount++;
 
               cout << "Transfer successful!" << endl;
-              cout << "New balance: $" << accounts[currentAccountIndex].balance
-                   << endl;
+              cout << "New balance: $" << accounts[currentAccountIndex].balance << endl;
             }
           } else {
-            cout << "The account number did not match any of our accounts. "
-                    "Try again!"
-                 << endl;
+            cout << "The account number did not match any of our accounts. Try again!" << endl;
           }
         }
 
@@ -221,8 +214,7 @@ int main() {
         } else {
           cout << "Transaction history: " << endl;
 
-          for (int i = 0; i < accounts[currentAccountIndex].transactionCount;
-               i++) {
+          for (int i = 0; i < accounts[currentAccountIndex].transactionCount; i++) {
             cout << accounts[currentAccountIndex].transactionHistory[i] << endl;
           }
         }
@@ -232,20 +224,16 @@ int main() {
       // Generate account statement with transaction history and balance
       case 6: {
         cout << "========== Account Statement ==========" << endl;
-        cout << "   Account Holder: "
-             << accounts[currentAccountIndex].holderName << endl;
-        cout << "   Account Number: "
-             << accounts[currentAccountIndex].accountNumber << endl;
-        cout << "   Current Balance: $" << fixed << setprecision(2)
-             << accounts[currentAccountIndex].balance << endl;
+        cout << "   Account Holder: " << accounts[currentAccountIndex].holderName << endl;
+        cout << "   Account Number: " << accounts[currentAccountIndex].accountNumber << endl;
+        cout << "   Current Balance: $" << fixed << setprecision(2) << accounts[currentAccountIndex].balance << endl;
 
         cout << "\nTransaction History:" << endl;
 
         if (accounts[currentAccountIndex].transactionCount == 0) {
           cout << "No transactions available." << endl;
         } else {
-          for (int i = 0; i < accounts[currentAccountIndex].transactionCount;
-               i++) {
+          for (int i = 0; i < accounts[currentAccountIndex].transactionCount; i++) {
             cout << accounts[currentAccountIndex].transactionHistory[i] << endl;
           }
         }
