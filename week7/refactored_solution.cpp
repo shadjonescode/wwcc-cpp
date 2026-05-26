@@ -22,7 +22,7 @@ public:
         balance = 0;
         isOpen = true;
 
-        if (type == "savings" || type = "checking" || type == "business"){
+        if (type == "savings" || type == "checking" || type == "business"){
             accountType = type;
         } else {
             accountType = "checking";
