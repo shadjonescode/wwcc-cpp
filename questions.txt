@@ -1,0 +1,79 @@
+Sports|1|How many points is a touchdown worth?|6
+Sports|1|What NFL team plays in Seattle and was the team who won a superbowl in 2025?|Seahawks
+Sports|1|What baseball team has the most world series?|New York Yankees
+Gaming|1|What company created Mario?|Nintendo
+Gaming|1|What gaming console did Microsoft create?|Xbox
+Gaming|1|What is the color of Pac-Man?|Yellow
+History|1|Who was the first President of the United States?|George Washington
+History|1|Which ancient civilization buily the Great Pyramids?|Egyptians
+History|1|What famous ship sank in 1912 after hitting an iceberg?|Titanic
+Technology|1|What does "WWW" stand for in a website address?|World Wide Web
+Technology|1|What technology company has a logo featuring a fruit with a bite taken out of it?|Apple
+Technology|1|What is the main screen of a computer operating system called, where your icons and shortcuts sit?|desktop
+Music|1|Which pop star is known for her massive "Eras Tour" and songs like shake it off?|Taylor Swift
+Music|1|How many musicians are in a traditional music trio?|Three
+Music|1|What instrument has 88 black and white keys that you press to play notes?|Piano
+
+Sports|2|In bowling, what is the term used when a player knocks down all 10 pins on their very first throw?|Strike
+Sports|2|What color card does a soccer referee hold up to instantly expel a player from the game?|Red
+Sports|2|What is the only sport where a player can score a "home run"?|Baseball
+Gaming|2|What company developed Minecraft?|Mojang
+Gaming|2|What color is Sonic the Hedgehog?|Blue
+Gaming|2|What Nintendo console came before the Switch?|Wii U
+History|2|Who was the first man to walk on the moon?|Neil Armstrong
+History|2|What wall separated East and West Berlin?|Berlin Wall
+History|2|Which war was fought between the North and South in the United States?|Civil War
+Technology|2|What company created the Windows operating system?|Microsoft
+Technology|2|What does Wi-Fi allow devices to do?|Connect wirelessly
+Technology|2|What does CPU stand for?|Central Processing Unit
+Music|2|What instrument usually has six strings?|Guitar
+Music|2|Which symbol raises a note by a half step?|Sharp
+Music|2|What family of instruments includes violin and cello?|Strings
+
+Sports|3|How many innings are played in a standard baseball game?|9
+Sports|3|How many players are on the field for one football team at a time?|11
+Sports|3|What country won the 2022 FIFA World Cup?|Argentina
+Gaming|3|What year was the Nintendo Switch released?|2017
+Gaming|3|What company owns the PlayStation brand?|Sony
+Gaming|3|What game features the regions of Kanto and Johto?|Pokemon Gold Silver
+History|3|Who wrote the Declaration of Independence?|Thomas Jefferson
+History|3|What year did World War II end?|1945
+History|3|Which empire was ruled by Julius Caesar?|Roman Empire
+Technology|3|What does RAM stand for?|Random Access Memory
+Technology|3|What programming language is known for its snake logo?|Python
+Technology|3|What does GPU stand for?|Graphics Processing Unit
+Music|3|Who composed Fur Elise?|Beethoven
+Music|3|Which band released the album Abbey Road?|The Beatles
+Music|3|What musical term means very fast?|Presto
+
+Sports|4|Which country invented the modern Olympic Games?|Greece
+Sports|4|How many holes are played in a standard round of golf?|18
+Sports|4|What trophy is awarded to the NHL champion?|Stanley Cup
+Gaming|4|What is the best-selling video game of all time?|Minecraft
+Gaming|4|Which company created the Halo franchise?|Bungie
+Gaming|4|What year was the original PlayStation released in North America?|1995
+History|4|What treaty ended World War I?|Treaty of Versailles
+History|4|Who was the British Prime Minister during most of World War II?|Winston Churchill
+History|4|What year did the Berlin Wall fall?|1989
+Technology|4|What does HTML stand for?|HyperText Markup Language
+Technology|4|Who founded Microsoft with Bill Gates?|Paul Allen
+Technology|4|What does SSD stand for?|Solid State Drive
+Music|4|Who is known as the King of Pop?|Michael Jackson
+Music|4|What city is considered the birthplace of grunge music?|Seattle
+Music|4|Which composer became deaf later in life?|Beethoven
+
+Sports|5|Who has won the most Super Bowls as a head coach?|Bill Belichick
+Sports|5|What is the maximum score possible in a single frame of bowling?|30
+Sports|5|Which tennis tournament is played on grass courts?|Wimbledon
+Gaming|5|What company developed Half-Life?|Valve
+Gaming|5|What year was Steam released?|2003
+Gaming|5|What was Nintendo's first home console called?|Color TV-Game
+History|5|Who was the first emperor of Rome?|Augustus
+History|5|What year did the Byzantine Empire fall?|1453
+History|5|Which battle ended Napoleon's rule in 1815?|Waterloo
+Technology|5|What does API stand for?|Application Programming Interface
+Technology|5|Who created the Linux kernel?|Linus Torvalds
+Technology|5|What does DNS stand for?|Domain Name System
+Music|5|What musical term means gradually getting louder?|Crescendo
+Music|5|Who composed The Four Seasons?|Vivaldi
+Music|5|What key has no sharps or flats?|C Major

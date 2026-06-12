@@ -1,27 +1,42 @@
-# CPP131 Class Repository
+# Knowledge Quest
 
-## About Me
+## Description
 
-## Introduction
+Knowledge Quest is a C++ game show trivia game. The player enters their name and competes in five rounds of trivia with increasing difficulty. The goal is to earn enough points to win the grand prize.
 
-Hello! My name is Shad. I am currently learning C++ programming.
+## Features
 
-## My Background
+* Five categories: Sports, Gaming, History, Technology, and Music
+* Five rounds of increasing difficulty
+* Randomly selected questions
+* Score tracking
+* Story-based game show theme
+* Win and lose endings
+* Saves results to a file
 
-I am currently a freshman in college. I am planning to get a degree in computer science.
+## Programming Concepts Used
 
-## Why I'm learning C++
+* Variables
+* Functions
+* Loops
+* If/Else Statements
+* Switch Statements
+* Structs
+* Enum Classes
+* Vectors
+* File Input
+* File Output
+* Random Number Generation
 
-I decided to learn C++ because I think it can help me understand how computers work at a deeper level. Since C++ is closer to the system than many other langauges, I think it will help me learn more about things like operating systems and memory work. I also wanted to strengthen my understanding of the fundamentals of programming and problem solving.
+## Files
 
-## Programming Knowledge
+* main.cpp - Main game source code
+* questions.txt - Stores all trivia questions
+* results.txt - Stores player results
 
-Programming langauges I'm familiar with are:
+## How to Run
 
-Python
-
-I have been programming for about 6 months
-
-## Favorites
-
-My favorite movie is step brothers or the hangover part 2. My favorite game is Cyberpunk 2077.
+1. Open the project in VS Code.
+2. Ensure questions.txt is in the same directory as main.cpp.
+3. Compile and run the program.
+4. Enter your name and play the game.
