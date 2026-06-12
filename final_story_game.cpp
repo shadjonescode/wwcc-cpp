@@ -128,8 +128,7 @@ bool askQuestion(const Question& q) {
     if (playerAnswer == correctAnswer) {
         cout << "Correct!" << endl;
         return true;
-    }
-    else {
+    } else {
         cout << "Incorrect." << endl;
         cout << "Correct answer: " << q.answer << endl;
         return false;
@@ -147,6 +146,7 @@ void saveResults(const string& playerName, int score) {
 
 int main() {
     srand(time(0));
+    GameState currentState = GameState::INTRO;
 
     vector<Question> questions = loadQuestions("questions.txt");
 
@@ -177,18 +177,23 @@ int main() {
         cout << "==========================" << endl;
         switch (difficulty) {
             case 1:
+                currentState = GameState::ROUND1;
                 cout << "The warm-up round begins!" << endl;
                 break;
             case 2:
+                currentState =  GameState::ROUND2;
                 cout << "The questions are getting tougher." << endl;
                 break;
             case 3:
+                currentState = GameState::ROUND3;
                 cout << "You have reached the halfway point!" << endl;
                 break;
             case 4:
+                currentState = GameState::ROUND4;
                 cout << "Only the best contestants make it this far." << endl;
                 break;
             case 5:
+                currentState = GameState::ROUND5;
                 cout << "Welcome to the championship round!" << endl;
                 break;
         }
@@ -214,9 +219,10 @@ int main() {
     cout << "Final Score: " << score << "/25" << endl;
 
     if (score >= 18) {
+        currentState = GameState::WIN;
         cout << "Congratulations " << playerName << "! You won the grand prize!" << endl;
-    }
-    else {
+    } else {
+        currentState = GameState::LOSE;
         cout << "Sorry " << playerName << ", better luck next time!" << endl;
     }
 
