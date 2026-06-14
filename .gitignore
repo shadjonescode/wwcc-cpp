@@ -12,4 +12,4 @@ a.out
 !*.h
 !*.md
 !.gitignore
-!Makefile
+!Makefileresults.txt
